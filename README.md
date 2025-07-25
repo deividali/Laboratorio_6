@@ -44,7 +44,7 @@ Laboratorio_6/
 
 ## Screenshots
 
-![Screenshot of Jewelry DMH E-commerce](screenshot.png)
+![Screenshot of Jewelry DMH E-commerce](https://github.com/deividali/Laboratorio_6/blob/main/Screenshot.png)
 
 ## License
 
