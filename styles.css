@@ -1,0 +1,119 @@
+:root{
+    --primary: white;
+    --secondary: black;
+    --tertiary: rgb(145, 138, 138);
+    --primaryfontcolor: black;
+    --secondaryfontcolor: white;
+
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--primary);
+    color: var(--primaryfontcolor);
+    
+}
+
+header{
+    background-color: var(--secondary);
+    text-align: center;
+}
+
+header h1{
+    color: var(--secondaryfontcolor);
+    padding: 8px;
+}
+
+main{
+    
+    margin: 0 10rem;
+}
+
+main div ul{
+    background-color: var(--primary);
+}
+
+.nav-link {
+    color: var(--primaryfontcolor);
+
+}
+.nav-link.active {
+    color: var(--primaryfontcolor);
+
+}
+
+.navbar{
+    padding: 15px 15%;
+}
+
+
+
+.carousel img{
+    width: 800px;
+    height: 450px;
+}
+#carouselExample{
+    padding: 20px;
+}
+
+h3{
+    padding: 20px;
+}
+
+.column-content{
+    display: flex;
+
+}
+
+.column-content .flex-column{
+    width: 250px;
+    min-width: 150px;
+    text-align: end;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div{
+    background-color: var(--secondary);
+    color: var(--secondaryfontcolor);
+    height: 250px;
+    padding: 50px;
+}
+ul{
+    list-style: none;
+}
+
+.youtube-video {
+    width: 800px;
+    height: 415px;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+.form-login{
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.custom-table{
+    width: 600px;
+    margin: 0 auto;
+}
+
+footer p{
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--secondaryfontcolor);
+    margin: 0 auto;
+    padding: 25px;
+}
